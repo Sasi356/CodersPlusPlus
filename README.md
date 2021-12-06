@@ -46,7 +46,7 @@
    
    Source:[Reserch Gate](https://www.researchgate.net/figure/Architecture-of-Mask-R-CNN-for-instance-segmentation-on-visualization-technique-images_fig2_351426881)
    
-   *****Input Image -> RPN(Region Proposal Network) using FPN(Feature Pyramid Network-Backbone) -> ROI Allignment -> output(Box, Class and Mask detection)*****
+   Input Image -> RPN(Region Proposal Network) using FPN(Feature Pyramid Network-Backbone) -> ROI Allignment -> output(Box, Class and Mask detection)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 > Users Can get started with understanding the basic deep learning techniques like CNNs and exploring different object detection models.
 > Understading the documentation of the platform going to be used is crux of any project.
