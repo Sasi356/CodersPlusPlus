@@ -25,25 +25,31 @@
    |_config      <- default configs and handlers
    |_model_zoo   <- pre-trained model links and handler - COCO Instance segmentation model
    |_modeling   
-      |_meta_arch <- meta architecture - MRCNN
+      |_Aarchitecture <- base model and architecture - MRCNN
       |_backbone  <- backbone network - ResNet, FPN
       |_proposal_generator <- region proposal network
       |_roi_heads <- head networks for pooled ROIs - box, mask heads
+      |_iteration  <- no. of iteration of training
    |_engine      <- predictor and trainer engines
    |_structures   <- structure classes - Boxes, Instances
    |_utils        <- utility modules - visualizer
    ```
-   
+   At last Grids cells are identified on which objects of different classes are falled.
    **Here is the attachment of project notebook:**
    [Advanced Object identification in images](https://colab.research.google.com/drive/1lHQF4Q_NyGtb9Bv-i8p_ynYQ1hET6fOo?authuser=1)
    
-   ## Mask-RCNN
+   ### Mask-RCNN
+   Mask R-CNN was built on top of Faster R-CNN with extra feature which is masking the detected objects along with bounding box and predicting the class of object identified. The additional mask output is distinct from the class and box outputs, requiring the extraction of a much finer spatial layout of an object.
+   Mask R-CNN and works by adding a branch for predicting an object mask (Region of Interest) in parallel with the existing branch for bounding box recognition in Faster-RCNN.
+   #### Mask-RCNN Model:
+   ![image](https://user-images.githubusercontent.com/86351798/144879480-95d94a35-391e-4ea7-bd3c-5a0a368c5fb6.png)
    
+   Source:[Reserch Gate](https://www.researchgate.net/figure/Architecture-of-Mask-R-CNN-for-instance-segmentation-on-visualization-technique-images_fig2_351426881)
    
-Why the project is useful
-How users can get started with the project
-Where users can get help with your project
-Who maintains and contributes to the project
+   ***Input Image -> RPN(Region Proposal Network) using FPN(Feature Pyramid Network-Backbone) -> ROI Allignment -> output(Box, Class and Mask detection)***
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+> Users Can get started with understanding the basic deep learning techniques like CNNs and exploring different object detection models.
+> Understading the documentation of the platform going to be used is crux of any project.
 
 
 
