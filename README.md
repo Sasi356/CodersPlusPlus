@@ -44,7 +44,7 @@
    #### Mask-RCNN Model:
    ![image](https://user-images.githubusercontent.com/86351798/144879480-95d94a35-391e-4ea7-bd3c-5a0a368c5fb6.png)
    
-   Source:[Reserch Gate](https://www.researchgate.net/figure/Architecture-of-Mask-R-CNN-for-instance-segmentation-on-visualization-technique-images_fig2_351426881)
+   Source:[Research Gate](https://www.researchgate.net/figure/Architecture-of-Mask-R-CNN-for-instance-segmentation-on-visualization-technique-images_fig2_351426881)
    
    Input Image -> RPN(Region Proposal Network) using FPN(Feature Pyramid Network-Backbone) -> ROI Allignment -> output(Box, Class and Mask detection)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
