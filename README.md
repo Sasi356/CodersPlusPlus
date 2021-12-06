@@ -12,10 +12,8 @@
    
    ***Source: [Detectron2](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/)***
    #### Detectron2 Installation for your Computer Vision projects
-      ```
       !pip install torch==1.8.0+cu101 torchvision==0.9.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
       !pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.8/index.html
-      ```
    ***Note: Make sure Detectron2 and Pytorch versions are compatible***
    For more details about installation and tutorials of Detectron2 refer [Documentation](https://detectron2.readthedocs.io/en/latest/notes/benchmarks.html)
    
