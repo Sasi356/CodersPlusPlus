@@ -36,7 +36,7 @@
    ```
    At last Grids cells are identified on which objects of different classes are falled.
    **Here is the attachment of project notebook:**
-   [Advanced Object identification in images](https://colab.research.google.com/drive/138jpOo-iL-G_cFU3pcSfibSyThsMMtiR?authuser=1#scrollTo=LzF18vui2Mku)
+   [Advanced Object identification in images](https://colab.research.google.com/drive/11WPjx-RcEDk0cqZ8YQM4BEtPGtWm13S-#scrollTo=JA5KEjR5Ybv7)
    
    ### Mask-RCNN
    Mask R-CNN was built on top of Faster R-CNN with extra feature which is masking the detected objects along with bounding box and predicting the class of object identified. The additional mask output is distinct from the class and box outputs, requiring the extraction of a much finer spatial layout of an object.
